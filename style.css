@@ -1,0 +1,122 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   scroll-behavior: smooth;
+   font-family: 'Poppins',sans-serif;
+}
+:root{
+   --bg-color:#095a0d;
+   --seconnd-bg-color:#0f1011;
+   --third-bg-color:#3c4855;
+   --text-color:#fff;
+   --main-color:rgb(160, 240, 128);
+}
+html{
+    overflow-x: hidden;
+   color: var(--text-color);
+}
+body{
+   background: var(--text-color);
+   color: var(--seconnd-bg-color);
+}
+section{
+   min-height: 100vh;
+   padding: 10rem 9% 2rem;
+}
+.header{
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 15%;
+   padding: 2 rem 5%;
+   background: rgb(9, 104, 9);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+.header.sticky{
+   border-bottom: .1rem solid rgba(0,0,0, .2);
+}
+.navbar a{
+   font-size: 1.1rem;
+   color: var(--text-color);
+   margin-left: 4rem;
+   transition: -3s;
+}
+.navbar a:hover,
+.navbar a.active{
+   color: var(--third-bg-color);
+}
+#crypt{
+   color: var(--bg-color);
+}
+.one{
+   color: var(--bg-color);
+}
+#exc{
+   color: var(--bg-color);
+}
+.home-content h1{
+   font-size: 1.6rem;
+   font-weight: 400;
+   line-height: 1.3;
+   color: var(--seconnd-bg-color);
+}
+#wel{
+   margin-top: 10%;
+}
+.home-content p{
+   font-size: 1.3rem;
+   /* font-family: 'Source Code Pro', monospace; */
+   font-weight: 400;
+   color: var(--third-bg-color);
+}
+.home button{
+   border-radius: 10px;
+   font-size: 20;
+   background: var(--main-color);
+   border: .2rem solid var(--main-color);
+   padding: 10px;
+   margin-top: 20px;
+   margin-left: 10%;
+   color: var(--seconnd-bg-color);
+}
+.home{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.home-img img{
+   width: 35vw;
+   height: 60vh;
+   border-radius: 1rem;
+   object-fit: cover;
+}
+.about-content p{
+   font-size: 1.1rem;
+   /* font-family: 'Source Code Pro', monospace; */
+   font-weight: 500;
+   color: var(--seconnd-bg-color);
+}
+.about{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   background: rgb(211, 248, 211);
+}
+.about-img img{
+   width: 35vw;
+   height: 50vh;
+   border-radius: 1rem;
+   object-fit: cover;
+}
+#abt{
+   color: var(--seconnd-bg-color);
+   text-align: center;
+   font-family: 'Poppins',sans-serif;
+   margin-bottom: 5%;
+}
