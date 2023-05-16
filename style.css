@@ -120,3 +120,94 @@ section{
    font-family: 'Poppins',sans-serif;
    margin-bottom: 5%;
 }
+#prd{
+   margin-top: 1%;
+   text-align: center;
+}
+#prdp{
+   text-align: center;
+   font-family:  'Source Code Pro', monospace;
+   margin-bottom: -5%;
+}
+.product {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.product img{
+   width: 90%;
+   height: 40vh;
+}
+   .product img:hover{
+       cursor: pointer;
+       transform: scale(1.1);
+   }
+#fast{
+   text-align: center;
+   margin-top: 5%;
+}
+#fst{
+   text-align: center;
+   font-family:  'Source Code Pro', monospace;
+   margin-bottom: -5%;
+}
+.services{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.services-img img{
+   width: 35vw;
+   height: 60vh;
+   border-radius: 1rem;
+}
+   .services-content p{
+       font-size: 1.1rem;
+       /* font-family: 'Source Code Pro', monospace; */
+       font-weight: 500;
+       color: var(--seconnd-bg-color);
+       margin-bottom: 2%;
+   }
+.services{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   background: var(--text-color);
+}
+.services-img img{
+   width: 35vw;
+   height: 50vh;
+   border-radius: 1rem;
+   margin-left: 6%;
+   object-fit: cover;
+}
+.teams{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.teams img{
+   width: 80%;
+   height: 45vh;
+   border-radius: 10px;
+   /* margin-top: 4%; */
+   margin-left: 10%;
+}
+.teams p{
+   margin-left: 10%;
+}
+.teams img:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+footer{
+   font-size: small;
+   background: rgb(9, 104, 9);
+   color: var(--text-color);
+   height: 20vh;
+}
+#prd3{
+   text-align: center;
+   margin-bottom: -10%;
+}
+footer h3{
+   font-family: 'Source Code Pro', monospace;
+   margin-top: 10%;
+  padding:  5%;
+}
